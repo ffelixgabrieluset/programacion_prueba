@@ -1,11 +1,11 @@
-void mov() {
+void mov() { //cuando el mouse esta cerca de x cuadrado se achica, sino esta en su tamaño origical
   
   dibtablero();
   minfigurascentro();
   minrect();
 }
 
-void dibtablero() {
+void dibtablero() { //dibujo de tablero tipo ajedez
   for (int t = 0; t<9; t++) {
     for (int i = 0; i<9; i++) {
 
@@ -26,7 +26,7 @@ void dibtablero() {
 }
 
 
-void mouseClicked() {
+void mouseClicked() { //invertir colores
   if (mouseX > 400 && mouseX < 800 && mouseY > 0 && mouseY < 200) {
     figuraColor = color(255);
     figuraColorDos = color(35);
