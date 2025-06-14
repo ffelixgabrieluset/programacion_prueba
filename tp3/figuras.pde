@@ -3,7 +3,7 @@ void cuadrogrande(int xy) {
   rect(xy, xy, tamG, tamG);
 }
 
-void minfigurascentro() {
+void minfigurascentro() { //mini cuadrados del centro
   stroke(1);
   fill(figuraColorDos);
 
@@ -32,7 +32,7 @@ void minfigurascentro() {
   rect(620, 275, tamC, tamC);
 }
 
-void minrect() {
+void minrect() { //min cuadrados de esquina superior izquierdo
   pushMatrix();
   translate(405, 0);
   fill(figuraColorDos);
