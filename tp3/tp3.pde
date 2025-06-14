@@ -1,8 +1,3 @@
-/*
- Felix Gabriel Uset
- Comision 5
- TP3
- */
 
 PImage opart;
 color figuraColor;
@@ -24,7 +19,7 @@ void draw() {
   image(opart, 0, 0, 400, 400);
   
 
-  textSize(20);
+  textSize(20);  //ubicacion del mouse
   fill(255, 0, 255);
   text((400 + mouseX) + "-" + mouseY, mouseX, mouseY);
 }
